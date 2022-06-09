@@ -1,0 +1,13 @@
+테이블 생성
+
+create TABLE IF NOT EXISTS POST(
+    postNum VARCHAR(200) NOT NUll  PRIMARY KEY
+    ,writer VARCHAR(20) NOT NULL
+    ,password VARCHAR(20) NOT NULL
+    ,pLocation VARCHAR(200) NOT NULL
+    ,destination VARCHAR(200) NOT NULL
+    ,pDate DATE NOT NULL
+    ,pTime TIME NOT NULL
+    ,numberofPeople INT NOT NULL,
+    )
+
